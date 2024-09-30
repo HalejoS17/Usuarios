@@ -16,6 +16,6 @@ namespace Usuarios.Models
 
         [Required]
         [StringLength(100)]
-        public string Contrasena { get; set; }
+        public string Contrasenia { get; set; }
     }
 }
