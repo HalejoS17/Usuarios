@@ -15,7 +15,7 @@ namespace Usuarios.Models
         public string Email { get; set; }
 
         [Required]
-        [StringLength(100)]
+        [StringLength(100)] 
         public string Contrasena { get; set; }
     }
 }
