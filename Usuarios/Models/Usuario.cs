@@ -12,7 +12,7 @@ namespace Usuarios.Models
 
         [Required]
         [EmailAddress]
-        public string Emaill { get; set; }
+        public string Email { get; set; }
 
         [Required]
         [StringLength(100)]
